@@ -1,0 +1,287 @@
+
+.hero{
+    background-color: #f5f5f4;
+    box-shadow: 5px 21px 39px -23px #000000;
+
+}
+
+header{
+    border-bottom: 1px solid #e7e7e2;
+    padding-top: 50px;
+}
+
+header a{
+    text-decoration: none;
+    color: #283446;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+header h5{
+    color: #a5a5a5;
+    font-size: 18px;
+}
+
+.header_tel{
+    color: #504f4f;
+    font-size: 18px;
+}
+
+.header_below{
+    padding-top: 45px;
+    border-top: 1px solid white;
+
+}
+
+.header_below h2{
+    color: #504f4f;
+    font-size: 25px;
+}
+
+.header_below p{
+    color: #505050;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.header_below img{
+    width: 100%;
+    border: 10px solid white;
+    margin-bottom: 70px;
+    box-shadow: 5px 21px 39px -23px #000000;
+}
+
+.header_below ul{
+    color: #505050;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+.header_below button {
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#c2dae6), to(#9dbecf));
+  }
+
+  .header_below a{
+      text-decoration: none;
+      color: #62889a;
+      text-transform: uppercase;
+      display: block;
+  }
+
+
+
+
+
+
+
+
+
+
+
+main{
+    background-color: #d7e7ef;
+    border-bottom: 1px solid #abbbc2;
+}
+
+.main_title{
+    color: #7da0b3;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+main h3{
+    color: #456474;
+    font-size: 17px;
+}
+ main p{
+     color: #505050;
+     font-size: 13px;
+     padding-right: 45px;
+     text-align: justify;
+     line-height: 25px;
+     font-style: italic;
+ }
+ .left_intro{
+     background-color: #c9dce6;
+     color: #456474;
+ }
+
+ .left_intro h3{
+    font-size: 17px;
+    padding-top: 13px;
+    padding-bottom: 30px;
+    color: #456474;
+ }
+
+ .left_intro p{
+    font-size: 12px; 
+    font-style: italic;
+    color: #456474;
+ }
+
+ .down_int{
+     padding-top: 80px;
+ }
+
+ .left_intro span{
+    color: #456474;
+    font-size: 50px;
+ }
+.about{
+    padding-bottom: 80px;
+}
+
+.down_int{
+    padding-bottom: 125px;
+}
+
+.form_right{
+    padding-left: 45px;
+}
+
+.form_right input{
+    padding: 5px;
+}
+
+.form_right button{
+    color: #62889a;
+    border: none;
+    height: 38px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#c2dae6), to(#9dbecf));
+}
+
+.form_right a{
+    padding-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: #4a4f52;
+}
+
+
+
+
+
+
+
+footer{
+    background-color: #c9dce6;
+    border-top: 1px solid #bcced8;
+    color: #505050;
+    font-size: 12px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+ 
+.icons{
+    text-align: right;
+}
+
+.qoute_1 span{
+   float: left;
+}
+
+.photo img{
+    float: left;
+    padding-right: 10px;
+}
+
+.palit img{
+    float: left;
+    padding-right: 10px;
+}
+
+.docs img{
+    float: left;
+    padding-right: 10px;
+}
+
+.intro_with_img{
+    padding-top: 90px;
+}
+
+.first_obj{
+    position: absolute;
+    top: 2px;
+    left: -10px;
+
+}
+
+.form_right img{
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.slider img{
+    text-align: center;
+    border: 5px solid white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+.slider{
+    background-color: #c9dce6;
+    border-bottom: 1px solid #b4c1c8;
+}
+
+#slider_js img{
+margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+#slider{
+    width: 740px;
+    height: 150px;  
+    margin: 0px auto;
+    overflow: hidden;
+  }
+  
+  #polosa{
+      width: 1056px;
+      position: relative;
+      left: 0;
+      transition: all ease 1s;
+  }
+  
+  #polosa img{
+      float: left;
+      border: 5px solid white;
+      margin-right: 20px;
+  }
+  
+  #polosa::after{
+      content: "";
+      display: block;
+      clear: both;
+  }
+
+
+  #slider-left{
+      position: relative;
+      bottom: 2px;
+      left: 45%;
+      background-color: #6695ad !important;
+
+  }
+  
